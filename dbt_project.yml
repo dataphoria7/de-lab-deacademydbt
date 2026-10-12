@@ -67,12 +67,12 @@ models:
 
       silver:
 
-          schema: silver
+          +schema: silver
 
-          materialized: table
+          +materialized: table
 
       gold:
 
-          schema: gold
+          +schema: gold
 
-          materialized: view
+          +materialized: view

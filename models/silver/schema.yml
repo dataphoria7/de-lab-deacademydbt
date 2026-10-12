@@ -11,3 +11,13 @@ sources:
       tables:
 
         - name: WORK_PRODUCT_COPY
+      
+    - name: xfm
+
+      database: MYDB
+
+      schema: SILVER
+
+      tables:
+
+        - name: WORK_PRODUCT_TRANSFORM
